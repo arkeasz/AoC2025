@@ -1,5 +1,4 @@
 import { readFile } from "node:fs/promises";
-import { text } from "node:stream/consumers";
 
 let txt = await readFile('./day_6/input.txt', "utf-8");
 
